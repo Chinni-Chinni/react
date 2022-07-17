@@ -17,7 +17,7 @@ export const LoginAuth = ({ children }) => {
             data:body
 
         })
-        .then((res)=>settoken(res.data))
+        .then((res)=>settoken(res.data.token))
         .catch((err)=>console.log(err));
     }
 

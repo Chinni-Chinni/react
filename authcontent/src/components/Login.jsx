@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import { useContext } from 'react';
 import { AuthContext } from '../contents/Authcontext';
 import "../App.css"
+import ShowUserDetails from './ShowUserDetails';
 
 export default function Login() {
     const [email, setemail] = useState("");
@@ -15,6 +16,7 @@ export default function Login() {
 
     const handleAuth = (details) => {
         token ? settoken(null) : handleLogin(details);
+
 
     }
     return (
@@ -33,7 +35,7 @@ export default function Login() {
 
                 </div>}
             <Button onClick={() => handleAuth({ email, password })} variant="contained" color="success"> {token ? "Log out" : "Log in"}</Button>
-        
+        <ShowUserDetails />
 
         </>
 
