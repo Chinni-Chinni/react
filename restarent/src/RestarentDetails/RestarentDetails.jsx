@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "../RestarentDetails/Restarentdetails.css";
 
 export default function RestarentDetails(props) {
@@ -15,8 +15,10 @@ export default function RestarentDetails(props) {
         reviews,
         src
     } = props.data;
+    const [data,setdata] = useState("");
     return (
         <>
+        <button  >Card</button>
         <div className='food-items'>
             <div>
                 <img src={src} />
@@ -27,7 +29,7 @@ export default function RestarentDetails(props) {
                 <h3>{name}</h3>
                 <p>{cuisine}</p>
                 <p>Cost ${costForTwo} for one</p>
-                <h4>Accepts online payments only</h4>
+                <h4>{data}</h4>
 
             </div>
             <div>
