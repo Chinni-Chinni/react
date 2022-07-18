@@ -1,0 +1,82 @@
+{
+    "appointment":[
+        {
+            "id":1,
+            "name":"chinni",
+            "age": 20,
+            "appointment_details": "fever",
+            "time": 3,
+            "date" : "12/3/2022",
+            "gender":"female"
+
+        },
+        {
+            "id":2,
+            "name":"radhika",
+            "age": 20,
+            "appointment_details": "headache",
+            "time": 3,
+            "date" : "12/3/2022",
+            "gender":"female"
+
+        },
+        {
+            "id":3,
+            "name":"madhavi",
+            "age": 20,
+            "appointment_details": "bodypain",
+            "time": 3,
+            "date" : "12/3/2022",
+            "gender":"female"
+
+        },
+        {
+            "id":4,
+            "name":"venky",
+            "age": 20,
+            "appointment_details": "fever",
+            "time": 3,
+            "date" : "12/3/2022",
+            "gender":"male"
+        },
+        {
+            "id":5,
+            "name":"chinni",
+            "age": 20,
+            "appointment_details": "fever",
+            "time": 3,
+            "date" : "12/3/2022",
+            "gender":"female"
+
+        },
+        {
+            "id":6,
+            "name":"radhika",
+            "age": 20,
+            "appointment_details": "headache",
+            "time": 3,
+            "date" : "12/3/2022",
+            "gender":"female"
+
+        },
+        {
+            "id":7,
+            "name":"madhavi",
+            "age": 20,
+            "appointment_details": "bodypain",
+            "time": 3,
+            "date" : "12/3/2022",
+            "gender":"female"
+
+        },
+        {
+            "id":8,
+            "name":"venky",
+            "age": 20,
+            "appointment_details": "fever",
+            "time": 3,
+            "date" : "12/3/2022",
+            "gender":"male"
+        }
+    ]
+}
