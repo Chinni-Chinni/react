@@ -15,10 +15,10 @@ export default function RestarentDetails(props) {
         reviews,
         src
     } = props.data;
-    const [data,setdata] = useState("");
+    // const [data,setdata] = useState("");
     return (
         <>
-        <button  >Card</button>
+        {/* <button >Card</button> */}
         <div className='food-items'>
             <div>
                 <img src={src} />
@@ -29,7 +29,7 @@ export default function RestarentDetails(props) {
                 <h3>{name}</h3>
                 <p>{cuisine}</p>
                 <p>Cost ${costForTwo} for one</p>
-                <h4>{data}</h4>
+                <h4>"card"</h4>
 
             </div>
             <div>

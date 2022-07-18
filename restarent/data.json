@@ -12,7 +12,7 @@
       "cash": true,
       "upi": true
     },
-    "rating": 4.3,
+    "rating": 4,
     "votes":300,
     "reviews":445,
     "src": "https://im.whatshot.in/img/2020/Jun/header-725x420-delhi-17097-a-1593157331.jpg"
@@ -29,7 +29,7 @@
       "cash": true,
       "upi": true
     },
-    "rating": 4.6,
+    "rating": 4,
     "votes":212,
     "reviews":245,
     "src": "https://c.ndtvimg.com/2020-12/akmaiiq_chicken-curry_625x300_21_December_20.jpg"
@@ -46,7 +46,7 @@
       "cash": true,
       "upi": true
     },
-    "rating": 3.4,
+    "rating": 3,
     "votes":218,
     "reviews":245,
     "src": "https://c.ndtvimg.com/2021-09/7is9ko5_poha-idli_240x180_16_September_21.jpg"
@@ -63,7 +63,7 @@
       "cash": true,
       "upi": false
     },
-    "rating": 2.8,
+    "rating": 2,
     "votes":123,
     "reviews":120,
     "src": "https://c.ndtvimg.com/2021-02/mthfpbvo_chicken-555_625x300_03_February_21.jpg"
@@ -80,7 +80,7 @@
       "cash": true,
       "upi": false
     },
-    "rating": 3.8,
+    "rating": 3,
     "votes":50,
     "reviews":120,
     "src": "https://c.ndtvimg.com/2021-08/7c2mko1_barfi_625x300_05_August_21.jpg"
@@ -97,7 +97,7 @@
       "cash": true,
       "upi": false
     },
-    "rating": 4.1,
+    "rating": 4,
     "votes":50,
     "reviews":120,
     "src": "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg"
@@ -114,7 +114,7 @@
       "cash": true,
       "upi": true
     },
-    "rating": 3.5,
+    "rating": 3,
     "votes":300,
     "reviews":120,
     "src": "https://c.ndtvimg.com/2021-08/tcu9e5gg_paneer-tikka_120x90_03_August_21.jpg"
@@ -131,7 +131,7 @@
       "cash": true,
       "upi": false
     },
-    "rating": 3.0,
+    "rating": 3,
     "votes":300,
     "reviews":120,
     "src": "https://c.ndtvimg.com/2021-07/ve1ac4c_chinese-idli_120x90_27_July_21.jpg"
@@ -165,7 +165,7 @@
       "cash": false,
       "upi": false
     },
-    "rating": 0.8,
+    "rating": 5,
     "votes":100,
     "reviews":50,
     "src": "https://c.ndtvimg.com/2021-06/rjdtkfkg_idli_120x90_15_June_21.jpg"
@@ -182,7 +182,7 @@
       "cash": false,
       "upi": false
     },
-    "rating": 3.8,
+    "rating": 5,
     "votes":100,
     "reviews":50,
     "src": "https://c.ndtvimg.com/2021-06/oojf1f0g_aloo-ki-jalebi_120x90_04_June_21.jpg"
@@ -199,7 +199,7 @@
       "cash": true,
       "upi": false
     },
-    "rating": 1.8,
+    "rating": 1,
     "votes":130,
     "reviews":70,
     "src": "https://c.ndtvimg.com/2021-06/80j4bo7g_mango-chicken-curry_120x90_03_June_21.jpg"
@@ -216,7 +216,7 @@
       "cash": true,
       "upi": false
     },
-    "rating": 4.8,
+    "rating": 4,
     "votes":430,
     "reviews":370,
     "src": "https://c.ndtvimg.com/2019-11/0l4mrhm8_egg-curry_240x180_05_November_19.jpg"
@@ -233,7 +233,7 @@
       "cash": true,
       "upi": true
     },
-    "rating": 3.1,
+    "rating": 3,
     "votes":230,
     "reviews":170,
     "src": "https://c.ndtvimg.com/2021-05/5uispigg_green-fish-curry_120x90_06_May_21.jpg"
@@ -250,7 +250,7 @@
       "cash": true,
       "upi": true
     },
-    "rating": 3.7,
+    "rating": 3,
     "votes":230,
     "reviews":170,
     "src": "https://c.ndtvimg.com/2021-04/ejt2v7l_paneer-makhanwala_120x90_26_April_21.jpg"
@@ -267,7 +267,7 @@
       "cash": true,
       "upi": true
     },
-    "rating": 5.0,
+    "rating": 5,
     "votes":230,
     "reviews":170,
     "src": "https://c.ndtvimg.com/2021-04/7cigftc8_hedrabadi-bagara-khana_625x300_13_April_21.jpg"
@@ -284,7 +284,7 @@
       "cash": true,
       "upi": true
     },
-    "rating": 4.0,
+    "rating": 4,
     "votes":230,
     "reviews":170,
     "src": "https://c.ndtvimg.com/2020-10/avvfocig_dosa_240x180_19_October_20.jpg"
@@ -301,7 +301,7 @@
       "cash": true,
       "upi": true
     },
-    "rating": 4.7,
+    "rating": 4,
     "votes":230,
     "reviews":170,
     "src": "https://c.ndtvimg.com/2020-08/5cv7oqjo_pastry_120x90_14_August_20.jpg"
@@ -318,7 +318,7 @@
       "cash": true,
       "upi": true
     },
-    "rating": 4.9,
+    "rating": 4,
     "votes":230,
     "reviews":170,
     "src": "https://c.ndtvimg.com/2019-05/jndqdht_chur-chur-naan_120x90_18_May_19.jpg"
@@ -335,7 +335,7 @@
       "cash": false,
       "upi": true
     },
-    "rating": 4.1,
+    "rating": 4,
     "votes":230,
     "reviews":170,
     "src": "https://c.ndtvimg.com/2019-09/d71tanvg_besan-ladoo_120x90_11_September_19.jpg"
