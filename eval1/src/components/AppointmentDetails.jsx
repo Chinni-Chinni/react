@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import styled from "styled-components"
 export default function AppointmentDetails() {
   const itemid = useParams();
@@ -41,7 +41,7 @@ console.log(details)
             <p>Time : {details.time}PM</p>
             <p>Gender : {details.gender}</p>
           </div>
-      
+      <Link to="/Appointment"><button>Go To Appointment</button></Link>
 
     </Appontmentdetails>
   )
