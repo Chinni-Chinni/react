@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "title": "CHINNI",
+      "status": true,
+      "id": 1
+    },
+    {
+      "title": "managing state",
+      "status": false,
+      "id": 2
+    }
+  ]
+}
