@@ -1,0 +1,186 @@
+{
+    "products":[
+    {
+    "id": 1,
+    "title": "Flour - Fast / Rapid",
+    "color": "Red",
+    "price": "00501",
+    "rating": 1,
+    "catogory": "Fennel",
+    "hex": "#cf07c5",
+    "image": "http://dummyimage.com/172x100.png/ff4444/ffffff"
+  }, {
+    "id": 2,
+    "title": "Wine - Crozes Hermitage E.",
+    "color": "Maroon",
+    "price": "4",
+    "rating": 2,
+    "catogory": "Cake - Bande Of Fruit",
+    "hex": "#0d9add",
+    "image": "http://dummyimage.com/159x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 3,
+    "title": "Sauce - Black Current, Dry Mix",
+    "color": "Pink",
+    "price": "75",
+    "rating": 3,
+    "catogory": "Apple - Custard",
+    "hex": "#6a5a4d",
+    "image": "http://dummyimage.com/227x100.png/ff4444/ffffff"
+  }, {
+    "id": 4,
+    "title": "Pernod",
+    "color": "Mauv",
+    "price": "0",
+    "rating": 4,
+    "catogory": "Cumin - Whole",
+    "hex": "#f54f9a",
+    "image": "http://dummyimage.com/184x100.png/cc0000/ffffff"
+  }, {
+    "id": 5,
+    "title": "Cheese - Ermite Bleu",
+    "color": "Puce",
+    "price": "6061",
+    "rating": 5,
+    "catogory": "Ice Cream - Super Sandwich",
+    "hex": "#d80d4f",
+    "image": "http://dummyimage.com/242x100.png/dddddd/000000"
+  }, {
+    "id": 6,
+    "title": "Fish - Halibut, Cold Smoked",
+    "color": "Maroon",
+    "price": "23",
+    "rating": 6,
+    "catogory": "Garlic - Peeled",
+    "hex": "#62dce9",
+    "image": "http://dummyimage.com/213x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 7,
+    "title": "Toothpick Frilled",
+    "color": "Purple",
+    "price": "7940",
+    "rating": 7,
+    "catogory": "Lettuce Romaine Chopped",
+    "hex": "#20981d",
+    "image": "http://dummyimage.com/100x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 8,
+    "title": "Dried Cherries",
+    "color": "Khaki",
+    "price": "54",
+    "rating": 8,
+    "catogory": "Figs",
+    "hex": "#ba9d2f",
+    "image": "http://dummyimage.com/173x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 9,
+    "title": "Bread Base - Toscano",
+    "color": "Green",
+    "price": "0",
+    "rating": 9,
+    "catogory": "Beef - Ground Medium",
+    "hex": "#229e89",
+    "image": "http://dummyimage.com/193x100.png/dddddd/000000"
+  }, {
+    "id": 10,
+    "title": "Paste - Black Olive",
+    "color": "Puce",
+    "price": "1165",
+    "rating": 10,
+    "catogory": "Cheese - St. Paulin",
+    "hex": "#d478ca",
+    "image": "http://dummyimage.com/211x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 11,
+    "title": "Oven Mitts - 15 Inch",
+    "color": "Aquamarine",
+    "price": "45",
+    "rating": 11,
+    "catogory": "Ham - Proscuitto",
+    "hex": "#8430bd",
+    "image": "http://dummyimage.com/125x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 12,
+    "title": "Cheese - Colby",
+    "color": "Turquoise",
+    "price": "21",
+    "rating": 12,
+    "catogory": "Beef - Rib Roast, Cap On",
+    "hex": "#6e2daa",
+    "image": "http://dummyimage.com/249x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 13,
+    "title": "Oats Large Flake",
+    "color": "Red",
+    "price": "5",
+    "rating": 13,
+    "catogory": "Compound - Passion Fruit",
+    "hex": "#8c6e49",
+    "image": "http://dummyimage.com/144x100.png/dddddd/000000"
+  }, {
+    "id": 14,
+    "title": "Sprouts - Bean",
+    "color": "Teal",
+    "price": "18",
+    "rating": 14,
+    "catogory": "Chocolate - Sugar Free Semi Choc",
+    "hex": "#888546",
+    "image": "http://dummyimage.com/198x100.png/dddddd/000000"
+  }, {
+    "id": 15,
+    "title": "Eggplant - Baby",
+    "color": "Turquoise",
+    "price": "928",
+    "rating": 15,
+    "catogory": "Flour Pastry Super Fine",
+    "hex": "#ad60f9",
+    "image": "http://dummyimage.com/219x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 16,
+    "title": "Olive - Spread Tapenade",
+    "color": "Pink",
+    "price": "510",
+    "rating": 16,
+    "catogory": "Cheese - Le Cheve Noir",
+    "hex": "#fc4d7f",
+    "image": "http://dummyimage.com/169x100.png/cc0000/ffffff"
+  }, {
+    "id": 17,
+    "title": "Pepper - Chillies, Crushed",
+    "color": "Yellow",
+    "price": "5460",
+    "rating": 17,
+    "catogory": "Honey - Lavender",
+    "hex": "#e33411",
+    "image": "http://dummyimage.com/217x100.png/cc0000/ffffff"
+  }, {
+    "id": 18,
+    "title": "Pepper - White, Whole",
+    "color": "Green",
+    "price": "2",
+    "rating": 18,
+    "catogory": "Beef Tenderloin Aaa",
+    "hex": "#c6f913",
+    "image": "http://dummyimage.com/143x100.png/ff4444/ffffff"
+  }, {
+    "id": 19,
+    "title": "Bread - Rolls, Rye",
+    "color": "Fuscia",
+    "price": "2720",
+    "rating": 19,
+    "catogory": "Ice Cream Bar - Oreo Cone",
+    "hex": "#5f929a",
+    "image": "http://dummyimage.com/137x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 20,
+    "title": "Pickerel - Fillets",
+    "color": "Purple",
+    "price": "197",
+    "rating": 20,
+    "catogory": "Silicone Parch. 16.3x24.3",
+    "hex": "#0291d5",
+    "image": "http://dummyimage.com/182x100.png/5fa2dd/ffffff"
+  
+  }
+]
+}
