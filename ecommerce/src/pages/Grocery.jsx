@@ -17,10 +17,10 @@ import LastPageIcon from '@mui/icons-material/LastPage';
 import FirstPageIcon from '@mui/icons-material/FirstPage';
 
 
-export default function Home() {
+export default function Grocery() {
   const token = useSelector(state => state.auth.token);
   const [page, setpage] = useState(1);
-  const [sort, setsort] = useState("");
+  const [sort,setsort] = useState("")
   const init = {
     loding: false,
     error: false,
@@ -35,10 +35,10 @@ export default function Home() {
       loading: true,
       error: false
     }))
-
+// title_like=server
     axios({
       method: "get",
-      url: `http://localhost:3002/products?_sort=price&_order=${sort}&_page=${page}`
+      url: `http://localhost:3002/products?category_like=grocery&_sort=price&_order=${sort}&_page=${page}`
     })
       .then(res => {
         setproducts(prev => ({
@@ -75,7 +75,7 @@ export default function Home() {
     setsort(type);
   }
 
-  var a = products
+  // var a = products
   // console.log(a);
   // console.log(data);
 
@@ -83,8 +83,8 @@ export default function Home() {
     <>
       <div className='pagination'>
 
-        <Button onClick={() => handlesort("desc")} variant={sort !== "desc" ? "contained" : "outlined"}>Dec</Button> 
-         <Button onClick={() => handlesort("asc")} variant={sort !== "asc" ? "contained" : "outlined"}>Asc</Button>
+        <Button onClick={() => handlesort("desc")} variant={sort !== "desc" ? "contained" : "outlined"}>Dec</Button>
+        <Button onClick={() => handlesort("asc")} variant={sort !== "asc" ? "contained" : "outlined"}>Asc</Button>
 
         <Button disabled={page == 1} variant="text" onClick={() => setpage(page - 1)}>
           <FirstPageIcon />
@@ -117,6 +117,9 @@ export default function Home() {
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                       {el.description}
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                      {el.category}
                     </Typography>
 
                     <div style={{ display: "flex", justifyContent: "space-around" }}>

@@ -8,6 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { loginerror, loginloading, loginsuccess } from '../store/auth/action';
 import { Navigate } from 'react-router-dom';
 import { useState } from 'react';
+import "../style/Home.css"
 export default function Login() {
     // const token = useSelector(state => state.auth.token);
     const init = {

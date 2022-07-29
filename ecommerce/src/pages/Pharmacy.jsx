@@ -17,10 +17,10 @@ import LastPageIcon from '@mui/icons-material/LastPage';
 import FirstPageIcon from '@mui/icons-material/FirstPage';
 
 
-export default function Home() {
+export default function Pharmacy() {
   const token = useSelector(state => state.auth.token);
-  const [page, setpage] = useState(1);
-  const [sort, setsort] = useState("");
+  const [page,setpage] = useState(1);
+  const [sort,setsort] = useState("")
   const init = {
     loding: false,
     error: false,
@@ -38,7 +38,7 @@ export default function Home() {
 
     axios({
       method: "get",
-      url: `http://localhost:3002/products?_sort=price&_order=${sort}&_page=${page}`
+      url: `http://localhost:3002/products?category_like=pharmacy&_sort=price&_order=${sort}&_page=${page}`
     })
       .then(res => {
         setproducts(prev => ({
@@ -65,7 +65,6 @@ export default function Home() {
   if (!token) {
     return <Navigate to="/login" />
   }
-
   const handlesort = (type) =>{
     console.log(type)
     if(sort === type){
@@ -74,29 +73,28 @@ export default function Home() {
     }
     setsort(type);
   }
-
-  var a = products
+  // var a = products
   // console.log(a);
-  // console.log(data);
+  // // console.log(data);
 
   return (
     <>
-      <div className='pagination'>
-
-        <Button onClick={() => handlesort("desc")} variant={sort !== "desc" ? "contained" : "outlined"}>Dec</Button> 
-         <Button onClick={() => handlesort("asc")} variant={sort !== "asc" ? "contained" : "outlined"}>Asc</Button>
-
-        <Button disabled={page == 1} variant="text" onClick={() => setpage(page - 1)}>
-          <FirstPageIcon />
-        </Button>
-
-        <Button variant="contained">{page}</Button>
+    <div className='pagination'>
+    <Button onClick={() => handlesort("desc")} variant={sort !== "desc" ? "contained" : "outlined"}>Dec</Button> 
+       <Button onClick={() => handlesort("asc")} variant={sort !== "asc" ? "contained" : "outlined"}>Asc</Button>
 
 
-        <Button disabled={data.length !== 10} variant="text" onClick={() => setpage(page + 1)}>
-          <LastPageIcon />
-        </Button>
-      </div>
+     <Button disabled= {page == 1} variant="text" onClick={()=>setpage(page - 1)}>
+     <FirstPageIcon />
+     </Button>
+
+     <Button  variant="contained">{page}</Button>
+
+
+     <Button disabled = {data.length !== 10} variant="text"  onClick={()=>setpage(page + 1)}>
+     <LastPageIcon />
+     </Button>
+    </div>
 
       <div className='table'>
 
@@ -119,14 +117,14 @@ export default function Home() {
                       {el.description}
                     </Typography>
 
-                    <div style={{ display: "flex", justifyContent: "space-around" }}>
+                    <div style={{display:"flex",justifyContent : "space-around"}}>
 
-                      <Typography className='item-price' variant="body2" color="text.secondary">
-                        ₹ {el.price}
-                      </Typography>
-                      <Typography className='item-rating' variant="body2" color="text.secondary">
-                        {el.rating} <img style={{ width: "20px", height: "15px" }} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsqJD-IThqOgPBEhL18meQcDfbGOBBPWt0rg&usqp=CAU"></img>
-                      </Typography>
+                    <Typography className='item-price' variant="body2" color="text.secondary">
+                    ₹ {el.price}
+                    </Typography>
+                    <Typography className='item-rating' variant="body2" color="text.secondary">
+                      {el.rating} <img style = {{width : "20px" , height:"15px"}} src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsqJD-IThqOgPBEhL18meQcDfbGOBBPWt0rg&usqp=CAU"></img>
+                    </Typography>
                     </div>
                   </CardContent>
                   <CardActions>
