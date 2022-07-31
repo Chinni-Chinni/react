@@ -2,13 +2,38 @@
   "todos": [
     {
       "title": "CHINNI",
-      "status": true,
+      "status": false,
       "id": 1
     },
     {
-      "title": "managing state",
+      "title": "hello",
       "status": false,
-      "id": 2
+      "id": 5
+    },
+    {
+      "title": "chinni",
+      "status": false,
+      "id": 6
+    },
+    {
+      "title": "fdas",
+      "status": false,
+      "id": 7
+    },
+    {
+      "title": "fa",
+      "status": false,
+      "id": 8
+    },
+    {
+      "title": "jj",
+      "status": false,
+      "id": 9
+    },
+    {
+      "title": "fa",
+      "status": false,
+      "id": 10
     }
   ]
 }

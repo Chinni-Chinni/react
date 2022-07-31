@@ -1,8 +1,11 @@
 import { reducer as authreducer } from "./auth/reducer";
 import {applyMiddleware, combineReducers, compose, legacy_createStore as  createStore} from "redux";
 import thunk from "redux-thunk";
+import { reducer as cartReducer } from "./cart/reducer";
+
 const rootreducer = combineReducers( {
-auth : authreducer
+auth : authreducer,
+cart : cartReducer
 })
 
 

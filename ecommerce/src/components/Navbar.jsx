@@ -89,6 +89,19 @@ export default function Navbar() {
         </Link>
       </List>
 
+
+      <List>
+        <Link to="/carditems">
+          <ListItem disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                <LocalPharmacyIcon />
+              </ListItemIcon>
+              <ListItemText primary={"Card"} />
+            </ListItemButton>
+          </ListItem>
+        </Link>
+      </List>
       <Divider />
 
       <List>

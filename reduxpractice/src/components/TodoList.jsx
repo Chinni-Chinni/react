@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { useState } from 'react'
 import { nanoid } from "nanoid"
 import { useDispatch, useSelector } from 'react-redux';
-import { addtodoloading, deleteerror, deleteloading, deletesucess, gettodoerror, gettodoloading, gettodosuccess, patcherror, patchloading, patchsucess } from '../TodoList/action';
+import { addTodo, addtodoloading, deletedata, deleteerror, deleteloading, deletesucess, getdata, gettodoerror, gettodoloading, gettodosuccess, handleAddTodo, patchdata, patcherror, patchloading, patchsucess } from '../TodoList/action';
 export default function TodoList() {
     const [text, settext] = useState("");
 
@@ -13,88 +13,29 @@ export default function TodoList() {
     const { loading, error, data } = useSelector(state => state.todo.todos);
     // console.log(data,"data")
 
-// GETTING THE DATA
-    const getdata = () => {
-        dispatch(gettodoloading())
-        axios({
-            method: "get",
-            url: "http://localhost:3001/todos"
-        })
-            .then(res => {
-                dispatch(gettodosuccess(res.data))
-            })
-            .catch(err => {
-                dispatch(gettodoerror())
-            })
-    }
+
+// for getting the data
 
     useEffect(() => {
-        getdata();
+        dispatch(getdata());
     }, [nanoid])
 
-    // POST THE DATA
 
-    const handleAddTodo = () => {
-        dispatch(addtodoloading());
-        axios({
-            method: "post",
-            url: "http://localhost:3001/todos",
-            data: {
-                title: text,
-                status: false,
-                id: nanoid
-            }
+//  for adding the data
+   const handleAddTodo  = ()=>{
+    dispatch(addTodo(text,nanoid,settext))
+   }
 
-        })
-            .then(res => {
-                dispatch(gettodosuccess())
-                getdata()
-            })
-            .catch(err => {
-                dispatch(gettodoerror());
-            })
-    }
-// FOR DELETING THE DATA FROM THE TODO AND DB.JSON
+// for taggling the data
+   const handleTaggle = (id,status)=>{
+    dispatch(patchdata(id, status))
+   }
 
-    const handleDelete = (id) => {
-        dispatch(deleteloading());
-        axios({
-            method: "delete",
-            url: `http://localhost:3001/todos/${id}`,
-
-
-        })
-            .then(res => {
-                dispatch(deletesucess())
-                getdata()
-            })
-            .catch(err => {
-                dispatch(deleteerror());
-            })
-
-
-    }
-    // FOR PATCHING THE DATA TO CHANGE THE STATUS
-
-    const handleTaggle = (id, status) => {
-        dispatch(patchloading());
-        axios({
-            method: "patch",
-            url: `http://localhost:3001/todos/${id}`,
-            data: {
-                status : !status
-            }
-
-        })
-            .then(res => {
-                dispatch(patchsucess())
-                getdata()
-            })
-            .catch(err => {
-                dispatch(patcherror());
-            })
-            // console.log(status);
-    }
+// for deleting the data
+   const handleDelete = (id)=>{
+    dispatch(deletedata(id))
+   }
+   
 
     return (
         <>

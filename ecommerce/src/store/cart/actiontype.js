@@ -1,0 +1,15 @@
+export const ADD_TO_CART_ITEM = "ADD_TO_CART_ITEM";
+
+export const ADD_TO_CART_LOADING = "ADD_TO_CART_LOADING";
+
+export const ADD_TO_CART_ERROR = "ADD_TO_CART_ERROR";
+
+export const INC_CART_ITEM = "INC_CART_ITEM" ;
+
+export const DEC_CART_ITEM = "DEC_CART_ITEM";
+
+export const GET_CART_ITEM = "GET_CART_ITEM";
+
+export const DELETE_CART_ITEM = "DELETE_CART_ITEM";
+
+export const CLEAR_CART_ITEM = "CLEAR_CART_ITEM"

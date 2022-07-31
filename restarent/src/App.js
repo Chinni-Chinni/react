@@ -42,12 +42,14 @@ function App() {
       // if (sorting === "high") {
       //     return a.price < b.price ? 1 : -1;
       // }
-      if (sorting == 4) {
-        return a.rating >= b.rating ? 1 : -1
-      }
+      console.log(sorting==='3')
       if (sorting === 3) {
         return a.rating >= b.rating ? 1 : -1
       }
+      if (sorting == 4) {
+        return a.rating >= b.rating ? 1 : -1
+      }
+    
     })
 
     setrate(sortRes)
